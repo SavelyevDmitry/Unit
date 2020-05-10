@@ -1,0 +1,155 @@
+.section-tasks{
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 40px;
+
+    border-bottom: solid 1px #e1e1e1;
+
+    // Планшет
+    @media (min-width: 768px) {
+        padding-top: 65px;
+        padding-bottom: 38px;   
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        padding-top: 95px;  
+        padding-bottom: 18px;
+    }
+
+    &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: -43px;
+        left: calc(~"50% - 37px");
+      
+        background-color: #a4eecb;
+        width: 75px;
+        height: 75px;
+        transform: rotate(45deg);
+
+        // Планшет
+        @media (min-width: 768px) {
+            display: none;
+        }
+
+        // Десктоп
+        @media (min-width: 1170px) {
+            display: block;
+            top: 285px;
+            left: -87px;  
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+.section_tasks__content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        flex-direction: row-reverse;
+        align-items: center;     
+    }
+}
+
+.section-tasks__desk-wrapper{
+    padding-top: 125px;
+    width: 470px;
+}
+
+.section-tasks__title-wrapper{
+    margin-bottom: 34px;
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        padding-top: 22px;
+        text-align: left;           
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        padding-top: 0;            
+    }
+}
+
+.section-tasks__header-wrapper{
+    margin-bottom: 36px;
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-bottom: 17px;
+        text-align: left;           
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-bottom: 41px;    
+    }
+}
+
+.section-tasks__desc-wrapper{
+    padding-bottom: 10px;
+    text-align: center;
+    max-width: 450px;
+
+    // Планшет
+    @media (min-width: 768px) {
+        text-align: left;           
+    }
+}
+
+.section-tasks__img-wrapper{
+
+    // Планшет
+    @media (min-width: 768px) {
+        padding-left: 30px;          
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        padding-left: 33px;
+        width: calc(~"50% - 15px");       
+    }
+}
+
+.section-tasks__img{
+    width: 202px;
+
+    // Планшет
+    @media (min-width: 768px) {
+        width: 270px;        
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        width: 356px;        
+    }
+}
+
+.section-tasks__square{
+    position: absolute;
+    top: 320px;
+    left: -55px;
+    width: 80px;
+    height: 80px;
+   
+    background-color: #a4eecb;
+    transform: rotate(45deg);
+}
+
+  

@@ -1,0 +1,147 @@
+.footer{
+    padding-top: 57px;
+    padding-bottom: 57px;
+
+    background-color: #1a1a1a;
+
+    // Планшет
+    @media (min-width: 768px) {
+        padding-top: 72px;
+        padding-bottom: 71px;        
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        padding-top: 80px;
+        padding-bottom: 63px;     
+    }
+}
+
+.footer__content-nav-wrapper{
+    margin-bottom: 41px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-bottom: 50px;           
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        flex-direction: row; 
+        margin-bottom: 56px; 
+    }
+}
+
+.footer__content-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    color: white;
+
+    // Планшет
+    @media (min-width: 768px) {
+        flex-direction: row;
+        margin-bottom: 52px;         
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-right: 30px;
+        margin-bottom: 0;            
+    }
+}
+
+.footer__nav-link{
+    margin-bottom: 25px;
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    // Планшет
+    @media (min-width: 768px) {
+       margin-bottom: 0;
+       margin-right: 40px;     
+    }
+
+    &:last-child{
+        margin-bottom: 0;
+
+        // Планшет
+        @media (min-width: 768px) {
+            margin-right: 0;       
+        }
+    }
+
+    &:visited{
+        color: white;
+    }
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer_content-social{
+    display: flex;
+
+    color: white;
+}
+
+.footer_content-social-link{
+    margin-right: 20px;
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    transition: background-color 0.35s ease;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-right: 32px;    
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.footer__content-desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #626262;
+    font-size: 14px;
+    font-weight: 500;
+
+    p{
+        width: 190px;
+        line-height: 1.71;
+
+        // Десктоп
+        @media (min-width: 1170px) {
+           width: unset;     
+        }
+    }
+}

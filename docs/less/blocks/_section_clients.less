@@ -1,0 +1,236 @@
+.section-clients{
+    padding-top: 74px;
+    padding-bottom: 165px;
+    background-color: white;
+
+    // Планшет
+    @media (min-width: 768px) {
+        padding-top: 75px;
+        padding-bottom: 77px;        
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        padding-top: 108px;
+        padding-bottom: 96px;
+        
+        background-image: url("../img/clients/BG-clients.svg");
+        background-repeat: no-repeat;
+        background-position: center 156px;
+        background-size: auto;
+    }
+}
+
+.section-clients__title{
+    margin-bottom: 36px;
+
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-bottom: 25px;        
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-bottom: 72px;   
+    }
+}
+
+.section-clients__header{
+    margin-bottom: 34px;
+
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-bottom: 66px;        
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-bottom: 83px;      
+    }
+}
+
+.testimonial-carousel{
+    margin: 0 auto;
+    max-width: 420px;
+
+    // Планшет
+    @media (min-width: 768px) {
+        max-width: 467px;  
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        max-width: 750px;    
+    }
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    bottom: -37px;
+    left: 50%;
+    transform: translate(-100%, 100%);
+    margin-left: -20px;
+    width: 52px;
+    height: 52px;
+
+    background-image: url(../img/carousel/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    border-radius: 50%;
+
+    transition: box-shadow 0.2s ease;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-left: 0;
+        bottom: auto;
+        top: 12px;
+        left: -83px;
+        transform: translateX(-100%)      
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        top: 15px;
+        left: -52px;
+    }
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        box-shadow: 0 0 7px rgb(204, 199, 199);
+        opacity: 0.8;
+    }
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    bottom: -37px;
+    right: 50%;
+    margin-right: -20px;
+    transform: translate(100%, 100%);
+    width: 52px;
+    height: 52px;
+ 
+    background-image: url(../img/carousel/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    border-radius: 50%;
+
+    transition: box-shadow 0.2s ease;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-right: 0;
+        bottom: auto;
+        top: 12px;
+        right: -83px;
+        transform: translateX(100%)          
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        top: 15px;
+        right: -47px;
+    }
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        box-shadow: 0 0 7px rgb(204, 199, 199);
+        opacity: 0.8;
+    }
+}
+
+.tectimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+
+    // Планшет
+    @media (min-width: 768px) {
+         padding: 0;   
+    }
+}
+
+.tectimonial__text{
+    margin-bottom: 8px;
+
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px) {
+        margin-bottom: 19px;
+        font-size: 16px;
+        line-height: 2.13;   
+    }
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-bottom: 46px;
+        font-size: 18px;
+        line-height: 2.22;  
+    }
+
+    p{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+
+.textimonial__user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        flex-direction: row;   
+    }
+}
+
+.textimonial__user-photo{
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+
+    // Десктоп
+    @media (min-width: 1170px) {
+        margin-right: 40px;
+        margin-bottom: 0;        
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+}
+
+.textimonial__user-name{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+}
