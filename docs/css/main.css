@@ -962,6 +962,7 @@ p {
   padding-top: 73px;
   padding-bottom: 30px;
   overflow-x: hidden;
+  background-color: white;
 }
 @media (min-width: 768px) {
   .section-focus {
@@ -1295,12 +1296,12 @@ p {
      -moz-border-radius: 8px;
           border-radius: 8px;
   text-align: center;
-  -webkit-transition: -webkit-box-shadow 0.3s ease;
-  transition: -webkit-box-shadow 0.3s ease;
-  -o-transition: box-shadow 0.3s ease;
-  -moz-transition: box-shadow 0.3s ease, -moz-box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease, -moz-box-shadow 0.3s ease;
+  -webkit-transition: -webkit-box-shadow 0.5s ease;
+  transition: -webkit-box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease, -moz-box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease, -moz-box-shadow 0.5s ease;
 }
 @media (min-width: 768px) {
   .section-price__card {
@@ -1425,7 +1426,6 @@ p {
 .section-clients {
   padding-top: 74px;
   padding-bottom: 165px;
-  background-color: white;
 }
 @media (min-width: 768px) {
   .section-clients {
@@ -1864,10 +1864,10 @@ p {
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
-  -webkit-transition: background-color 0.35s ease;
-  -o-transition: background-color 0.35s ease;
-  -moz-transition: background-color 0.35s ease;
-  transition: background-color 0.35s ease;
+  -webkit-transition: background-color 0.45s ease;
+  -o-transition: background-color 0.45s ease;
+  -moz-transition: background-color 0.45s ease;
+  transition: background-color 0.45s ease;
 }
 @media (min-width: 768px) {
   .footer_content-social-link {
